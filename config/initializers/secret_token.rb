@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Kamgraphics::Application.config.secret_token = 'f4343bb4a30ab68f45579daaf26d174318624147312435ce9b43d1a918a1e624b05175ee562734c74864ecb0894e487af545a27d1d7b8cd55388055b62f3ccf9'
+Kamgraphics::Application.config.secret_token = '0658ff84ea4008d655714d3cc1faa38ecde8dd6eeb056f22a22d5129823b72e26203cf9fb1cedf30d389486bbfeb5787052ad03d5683ff0ebad72abdc7185976'
