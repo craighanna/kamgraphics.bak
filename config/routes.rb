@@ -1,7 +1,14 @@
 Kamgraphics::Application.routes.draw do
-  resources :counties
+  resources :line_items
 
-  resources :states
+  resources :carts
+
+  resources :schools
+
+  resources :states do
+    resources :counties
+  end
+
 
   get "home/index"
 
